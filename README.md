@@ -9,6 +9,16 @@ A deep convolutional neural network (CNN) framework for automated classification
 
 ---
 
+## 📸 Benchmark Gesture Classes & Dataset Representation
+
+Below is a visualization of the 10 sign language hand gesture classes ($0 \dots 9$) recognized by the deep CNN architecture:
+
+![Sign Language Digits Benchmark Samples](sign_language_digits_preview.png)
+
+*Representative $64 \times 64$ grayscale input feature grids normalized across spatial coordinates.*
+
+---
+
 ## 📌 Project Overview
 
 This repository implements a robust computer vision classification pipeline for hand gesture actions and sign language digits.
@@ -78,10 +88,11 @@ python hand_action_classifier.py --predict 5
 
 ```
 .
-├── hand detection.ipynb         # Interactive Jupyter Notebook for exploratory model training
-├── hand_action_classifier.py    # Production-ready, modular CNN training & inference script
-├── requirements.txt             # Environment dependencies (TensorFlow, OpenCV, Scikit-Learn)
-└── .gitignore                   # Ignore rules for checkpoints, data arrays, and system files
+├── hand detection.ipynb              # Interactive Jupyter Notebook for exploratory model training
+├── hand_action_classifier.py         # Production-ready, modular CNN training & inference script
+├── sign_language_digits_preview.png  # Visual gesture benchmark samples preview
+├── requirements.txt                  # Environment dependencies (TensorFlow, OpenCV, Scikit-Learn)
+└── .gitignore                        # Ignore rules for checkpoints, data arrays, and system files
 ```
 
 ---
