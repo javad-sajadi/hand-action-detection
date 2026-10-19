@@ -1,0 +1,26 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Checkpoints and models
+*.h5
+*.model
+*.keras
+*.ckpt
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Datasets
+*.npy
+data/
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
